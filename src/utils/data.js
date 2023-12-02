@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
 
 export const about = {
+  name: "Gyanendra Kumar",
   img: "/src/assets/gyanendra-photo.jpg",
   introduction: "Hi, I'm Gyanendra Kumar Software Engineer.",
   description:

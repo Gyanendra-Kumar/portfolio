@@ -16,7 +16,7 @@ const AboutMe = () => {
 
         <div className="pt-8 max-lg:text-center">
           <h1 className="text-5xl font-semibold max-md:text-3xl max-lg:text-4xl mb-4">
-            Hi, I'm <span className="text-primary">Gyanendra Kumar</span>{" "}
+            Hi, I'm <span className="text-primary">{about.name}</span>{" "}
             <span className="text-[#3c3e41]">Software Engineer.</span>
           </h1>
 
