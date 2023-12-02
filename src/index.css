@@ -41,3 +41,6 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+.css-azc51k-MuiPaper-root {
+  box-shadow: none;
+}

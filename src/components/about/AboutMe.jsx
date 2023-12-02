@@ -1,13 +1,15 @@
 import React from "react";
-import { profile } from "../../utils/data";
+import { about } from "../../utils/data";
+import { CustomButton } from "../../utils/CustomStyles";
+import Contact from "./Contact";
 
-const Profile = () => {
+const AboutMe = () => {
   return (
     <div>
       <section className="flex flex-col max-lg:items-center p-4  lg:justify-center lg:h-[80vh]  ">
         <div className="w-[200px] h-[200px] ">
           <img
-            src={profile.img}
+            src={about.img}
             className="w-full h-full object-cover rounded-full border-[5px] border-white shadow-3xl"
           />
         </div>
@@ -19,12 +21,26 @@ const Profile = () => {
           </h1>
 
           <p className="text-lg max-sm:text-sm text-dark-gray max-md:p-4 font-normal tracking-wide pt-6">
-            {profile.description}
+            {about.description}
           </p>
+        </div>
+
+        <div className="flex gap-8 pt-8 max-xl:flex-col max-lg:justify-center  max-sm:pt-2 max-md:w-3/4 max-lg:w-2/4 max-sm:gap-6 ">
+          <CustomButton
+            variant="contained"
+            sx={{
+              wordSpacing: "5px",
+              fontWeight: "600",
+              boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff",
+            }}
+          >
+            Download Resume
+          </CustomButton>
+          <Contact />
         </div>
       </section>
     </div>
   );
 };
 
-export default Profile;
+export default AboutMe;
