@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div>
       <section className="flex flex-col max-lg:items-center p-4  lg:justify-center lg:h-[80vh]  ">
-        <div className="w-[200px] h-[200px] ">
+        <div className="w-[200px] h-[200px] hover:translate-y-[-10px] transition-all">
           <img
             src={about.img}
             className="w-full h-full object-cover rounded-full border-[5px] border-white shadow-3xl"
