@@ -57,3 +57,102 @@ export const skills = [
     skill: "React.js",
   },
 ];
+
+export const companyProject = [
+  {
+    id: nanoid(),
+    company: "IBM",
+    role: "Application Developer",
+    Technologies:
+      "React.js, Redux/Toolkit, React-Hook-Forms, HTML(JSX), Tailwind CSS, Javascript(ES6), Material UI",
+    duration: "Sep 2022 - Nov 2023",
+    location: "Kolkata",
+    description: [
+      "Responsible to develop new user interface for client application.",
+      "Created reusable components that were being used in multiple components.",
+      "Wrote test cases to validate the application after completion and uploaded to client tools.",
+      "Collaborated with cross-functional team such as designers team. ",
+    ],
+  },
+  {
+    id: nanoid(),
+    company: "IBM",
+    role: "Application Developer",
+    Technologies: "FileNet, ACCE, WorkPlace, MySQL",
+    duration: "August 2021 - July 2022",
+    location: "Bangalore",
+    description: [
+      "Responsible to check incidents in Service Now",
+      "Categorize tickets based on issues reported",
+      "Check issues and provide solution to the end users before SLA target",
+    ],
+  },
+  {
+    id: nanoid(),
+    company: "IBM",
+    role: "Application Developer",
+    Technologies: "FileNet, ACCE, WorkPlace",
+    duration: "June 2020 - August 2021",
+    location: "Bangalore",
+    description: [
+      "Ensure the application is up and running as expected",
+      "Responsible forreceiving requestsfrom end-users, analyzing these, and either responding to the end-user with a solution or escalating it to the other IT teams.",
+      "Dealing with the user issues with already scripted solutions and creating an incident to assign it to other teams.",
+      "Providing Technical support for the application users",
+    ],
+  },
+];
+
+export const personalProject = [
+  {
+    id: nanoid(),
+    projectName: "Movix",
+    role: "React Developer",
+    Technologies:
+      "React.js, Redux Toolkit, SCSS, Axios, React Router DOM, API integration",
+    description: [
+      "Created movie web app using above mentioned technologies",
+      "Implemented react-router-dom latest features to navigate users to movie or TV Shows detail page",
+      "Implemented Search and filter to find specific movie or TV shows",
+      "Implemented skeleton loading while data is being fetched from API",
+      "Implemented lazy loading for images",
+      "Used Redux toolkit to store the movie, TV series and genres state",
+    ],
+    demo: "https://movix0112.netlify.app/",
+    github: "https://github.com/Huski-commando/movix.git",
+  },
+  {
+    id: nanoid(),
+    projectName: "MixMaster",
+    role: "React Developer",
+    Technologies:
+      "React.JS, CSS, React Query, API integration, Axios, React Router DOM, Toastify",
+    description: [
+      "User can search with Search bar",
+      "React Query to cache data to fast reload",
+      "Used React-Router-DOM for navigation",
+      "React Hooks to manage state",
+      "Axios to fetch data from given API",
+    ],
+    demo: "https://mixmaster0112.netlify.app/",
+    github: "https://github.com/Huski-commando/mixmaster",
+  },
+  {
+    id: nanoid(),
+    projectName: "GYM Website",
+    role: "React Developer",
+    Technologies:
+      "React.js, Tailwind CSS, API Integration, Axios, React Router DOM",
+
+    description: [
+      "Designed a GYM website with Rapid API",
+      "React Router DOM to navigate to different exercises",
+      "Implemented search functionality to search different exercises",
+      "It displays similar exercises and YouTube videos",
+      "React Hooks to manage state",
+      "Axios to fetch data from API",
+    ],
+    demo: "https://gym-mania.netlify.app/",
+    // github: "https://github.com/Huski-commando/mixmaster",
+  },
+];

@@ -8,7 +8,7 @@ import {
   Typography,
   Button,
 } from "@mui/material";
-import { LinkedIn } from "@mui/icons-material";
+import { LinkedIn, Call } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -33,8 +33,11 @@ const Contact = () => {
         onClick={handleClickOpen}
         sx={{
           fontWeight: "600",
+          fontSize: "15x",
           boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff",
+          textTransform: "capitalize",
         }}
+        startIcon={<Call />}
       >
         Contact Me
       </CustomButton>

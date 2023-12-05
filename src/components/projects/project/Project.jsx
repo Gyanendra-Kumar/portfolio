@@ -75,7 +75,13 @@ const Project = () => {
 
         {tabPanelItems.map((panelItem) => {
           return (
-            <TabPanel value={panelItem.value} key={panelItem.id}>
+            <TabPanel
+              value={panelItem.value}
+              key={panelItem.id}
+              style={{
+                padding: "15px 0",
+              }}
+            >
               {panelItem.projectName}
             </TabPanel>
           );

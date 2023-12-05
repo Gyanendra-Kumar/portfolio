@@ -2,6 +2,7 @@ import React from "react";
 import { about } from "../../utils/data";
 import { CustomButton } from "../../utils/CustomStyles";
 import Contact from "./Contact";
+import { Download } from "@mui/icons-material";
 
 const AboutMe = () => {
   return (
@@ -28,10 +29,13 @@ const AboutMe = () => {
         <div className="flex gap-8 pt-8 max-xl:flex-col max-lg:justify-center  max-sm:pt-2 max-md:w-3/4 max-lg:w-2/4 max-sm:gap-6 ">
           <CustomButton
             variant="contained"
+            startIcon={<Download />}
             sx={{
-              wordSpacing: "5px",
+              // wordSpacing: "5px",
               fontWeight: "600",
               boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff",
+              textTransform: "capitalize",
+              fontSize: "15px",
             }}
           >
             Download Resume

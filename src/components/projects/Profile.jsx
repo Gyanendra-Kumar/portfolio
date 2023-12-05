@@ -18,7 +18,7 @@ const Profile = () => {
               <span>
                 <PiArrowFatLinesRightLight />
               </span>
-              <span className="mb-2 tracking-wider leading-5 max-md:text-sm text-md">
+              <span className="mb-2 tracking-wider leading-5 max-md:text-sm text-md text-dark-gray">
                 {item.desc}
               </span>
             </div>
