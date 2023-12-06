@@ -1,4 +1,14 @@
 import { nanoid } from "nanoid";
+import html from "../assets/html.png";
+import css from "../assets/CSS3.png";
+import javascript from "../assets/javascript.png";
+import react from "../assets/react.png";
+import reduxToolit from "../assets/redux-toolkit.svg";
+import tailwind from "../assets/tailwind.png";
+import firebase from "../assets/firebase.png";
+import hook from "../assets/react-hook.jpg";
+import formhook from "../assets/react-form-hook.png";
+import mui from "../assets/mui.png";
 
 export const about = {
   name: "Gyanendra Kumar",
@@ -38,23 +48,53 @@ export const profile = [
 export const skills = [
   {
     id: nanoid(),
-    skill: "React.js",
+    image: html,
+    name: "HTML",
   },
   {
     id: nanoid(),
-    skill: "React.js",
+    image: css,
+    name: "CSS",
   },
   {
     id: nanoid(),
-    skill: "React.js",
+    image: tailwind,
+    name: "Tailwind CSS",
   },
   {
     id: nanoid(),
-    skill: "React.js",
+    image: javascript,
+    name: "JS/ES6",
   },
   {
     id: nanoid(),
-    skill: "React.js",
+    image: react,
+    name: "React.JS",
+  },
+  {
+    id: nanoid(),
+    image: hook,
+    name: "React Hook",
+  },
+  {
+    id: nanoid(),
+    image: reduxToolit,
+    name: "Redux/Toolkit",
+  },
+  {
+    id: nanoid(),
+    image: formhook,
+    name: "React Form",
+  },
+  {
+    id: nanoid(),
+    image: mui,
+    name: "Material UI",
+  },
+  {
+    id: nanoid(),
+    image: firebase,
+    name: "Firebase",
   },
 ];
 

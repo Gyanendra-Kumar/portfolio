@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "./Profile";
 import Project from "./project/Project";
+import Skills from "./Skills";
 
 const Projects = () => {
   return (
@@ -12,6 +13,7 @@ const Projects = () => {
       <Project />
 
       {/* Skills */}
+      <Skills />
     </div>
   );
 };

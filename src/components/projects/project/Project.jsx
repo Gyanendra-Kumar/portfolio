@@ -12,13 +12,13 @@ const tabItems = [
   {
     id: nanoid(),
     icon: <IoBusinessSharp className="text-xl max-sm:text-[10px]" />,
-    tabName: "Company Projects",
+    tabName: "Company",
     value: "company",
   },
   {
     id: nanoid(),
     icon: <BsPersonBoundingBox className="text-xl max-sm:text-[10px]" />,
-    tabName: "Personal Projects",
+    tabName: "Personal ",
     value: "personal",
   },
 ];
@@ -47,6 +47,10 @@ const Project = () => {
     <Card>
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+          <h1 className="font-medium mb-4 text-2xl text-dark-gray font-Poppins uppercase tracking-[1.25px] max-md:text-xl">
+            Projects
+          </h1>
+          <div className="border-b border-[#5a5d61]" />
           <TabList onChange={handleChange} aria-label="project tab">
             {tabItems.map((item) => {
               return (

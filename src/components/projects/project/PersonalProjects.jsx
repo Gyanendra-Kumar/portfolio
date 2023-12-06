@@ -17,7 +17,7 @@ const PersonalProjects = () => {
             key={index}
             sx={{ boxShadow: "5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff" }}
           >
-            <div className="flex flex-col gap-2 mb-4 py-4 max-sm:px-2 px-6 max-sm:text-sm">
+            <div className="flex flex-col gap-2 mb-4 py-4 max-sm:px-2 px-6 max-sm:text-sm hover:bg-gradient-to-br hover:from-[#e2e8ec] hover:to-[#ffffff]">
               <h1>
                 <span className="font-semibold font-Poppins mr-1">
                   Project Name:
