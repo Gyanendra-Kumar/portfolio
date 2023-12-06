@@ -9,6 +9,7 @@ import firebase from "../assets/firebase.png";
 import hook from "../assets/react-hook.jpg";
 import formhook from "../assets/react-form-hook.png";
 import mui from "../assets/mui.png";
+import git from "../assets/github.png";
 
 export const about = {
   name: "Gyanendra Kumar",
@@ -95,6 +96,11 @@ export const skills = [
     id: nanoid(),
     image: firebase,
     name: "Firebase",
+  },
+  {
+    id: nanoid(),
+    image: git,
+    name: "GitHub",
   },
 ];
 
