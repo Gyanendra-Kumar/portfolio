@@ -10,6 +10,9 @@ import hook from "../assets/react-hook.jpg";
 import formhook from "../assets/react-form-hook.png";
 import mui from "../assets/mui.png";
 import git from "../assets/github.png";
+import reactCertification from "../assets/certifications/React-IBM-certification.png";
+import BronzeLearner from "../assets/Achievements/Champion-Learner-Bronze-2023.png";
+import DSA from "../assets/Achievements/DSA-mock-interview-scaler.png";
 
 export const about = {
   name: "Gyanendra Kumar",
@@ -200,5 +203,25 @@ export const personalProject = [
     ],
     demo: "https://gym-mania.netlify.app/",
     // github: "https://github.com/Huski-commando/mixmaster",
+  },
+];
+
+export const certification = [
+  {
+    id: nanoid(),
+    image: reactCertification,
+    name: "IBM React Certificate",
+  },
+];
+export const achievement = [
+  {
+    id: nanoid(),
+    image: BronzeLearner,
+    name: "IBM Champion Bronze Learner",
+  },
+  {
+    id: nanoid(),
+    image: DSA,
+    name: "Scaler DSA Mock Interview",
   },
 ];

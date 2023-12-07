@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./Profile";
 import Project from "./project/Project";
 import Skills from "./Skills";
+import Certification from "./Certification";
 
 const Projects = () => {
   return (
@@ -14,6 +15,9 @@ const Projects = () => {
 
       {/* Skills */}
       <Skills />
+
+      {/* Certifications & Achievements */}
+      <Certification />
     </div>
   );
 };

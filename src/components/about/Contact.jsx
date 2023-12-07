@@ -5,7 +5,6 @@ import {
   Slide,
   DialogTitle,
   DialogContent,
-  Typography,
   Button,
 } from "@mui/material";
 import { LinkedIn, Call } from "@mui/icons-material";
