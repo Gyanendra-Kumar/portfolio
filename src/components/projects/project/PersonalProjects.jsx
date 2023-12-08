@@ -9,7 +9,7 @@ const PersonalProjects = () => {
   return (
     <div>
       {personalProject.map((item, index) => {
-        console.log(item);
+        // console.log(item);
         const { description } = item;
         return (
           <Paper
@@ -41,7 +41,7 @@ const PersonalProjects = () => {
                 </span>
                 <span className="text-dark-gray">
                   {description.map((desc, index) => {
-                    console.log(desc);
+                    // console.log(desc);
                     return (
                       <p key={index} className="flex gap-1">
                         <span>

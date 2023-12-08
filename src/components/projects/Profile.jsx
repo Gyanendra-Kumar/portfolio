@@ -12,13 +12,19 @@ const Profile = () => {
         </h1>
         <div className="border-b border-[#5a5d61] mb-6" />
 
-        {profile.map((item) => {
+        {profile.map((item, index) => {
           return (
             <div key={item.id} className="flex gap-2">
               <span>
                 <PiArrowFatLinesRightLight />
               </span>
-              <span className="mb-2 tracking-wider leading-5 max-md:text-sm text-md text-dark-gray">
+              <span
+                className={`${
+                  index === 2 || index === 5
+                    ? "font-semibold leading-5"
+                    : "mb-2 tracking-wider leading-5 max-md:text-sm text-md text-dark-gray"
+                }`}
+              >
                 {item.desc}
               </span>
             </div>

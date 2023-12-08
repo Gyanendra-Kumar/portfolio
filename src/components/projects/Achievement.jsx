@@ -30,15 +30,15 @@ const Achievement = () => {
       </h1>
       <div className="border-b border-[#5a5d61] mb-6" />
 
-      <div className="flex gap-6 flex-wrap">
+      <div className="flex gap-0 flex-wrap">
         {achievement.map((item, index) => {
           return (
             <div key={item.id} className="w-[25%] h-[100%]">
               <div
-                className="cursor-pointer transition-all flex flex-col justify-center items-center"
+                className="cursor-pointer hover:scale-[1.15] transition-all flex flex-col justify-center items-center"
                 onClick={() => handleClickOpen(index)}
               >
-                <div className="w-[80px] h-[80px] p-[13px]  shadow-3xl rounded-[4px] bg-gradient-to-r from-[#e4e6ec] to-[#F4F4F2] hover:from-pink-500 hover:to-yellow-500 ">
+                <div className="w-[80px] h-[80px] p-[10px]  shadow-3xl rounded-[4px] bg-gradient-to-r from-[#e4e6ec] to-[#F4F4F2] hover:from-pink-500 hover:to-yellow-500 ">
                   <img
                     src={item.image}
                     className="w-full h-full object-contain"

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tab, Box } from "@mui/material";
+import { Tab, Box, Tooltip } from "@mui/material";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 import { nanoid } from "nanoid";
 import CompanyProjects from "./CompanyProjects";
@@ -14,12 +14,14 @@ const tabItems = [
     icon: <IoBusinessSharp className="text-xl max-sm:text-[10px]" />,
     tabName: "Company",
     value: "company",
+    tooltip: "Company Projects",
   },
   {
     id: nanoid(),
     icon: <BsPersonBoundingBox className="text-xl max-sm:text-[10px]" />,
-    tabName: "Personal ",
+    tabName: "Personal",
     value: "personal",
+    tooltip: "Personal Projects",
   },
 ];
 
@@ -28,11 +30,13 @@ const tabPanelItems = [
     id: nanoid(),
     projectName: <CompanyProjects />,
     value: "company",
+    tooltip: "Company Projects",
   },
   {
     id: nanoid(),
     projectName: <PersonalProjects />,
     value: "personal",
+    tooltip: "Personal Projects",
   },
 ];
 

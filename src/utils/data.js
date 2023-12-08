@@ -33,7 +33,7 @@ export const profile = [
   },
   {
     id: nanoid(),
-    desc: "Having 1+ years of experience in React.js",
+    desc: "Trained and Certified in React.JS at IBM",
   },
   {
     id: nanoid(),
@@ -223,5 +223,15 @@ export const achievement = [
     id: nanoid(),
     image: DSA,
     name: "Scaler DSA Mock Interview",
+  },
+];
+
+export const educations = [
+  {
+    id: nanoid(),
+    duration: "2015 - 2019",
+    degree: "Bachelor of Engineering",
+    university: "VTU",
+    course: "CSE",
   },
 ];

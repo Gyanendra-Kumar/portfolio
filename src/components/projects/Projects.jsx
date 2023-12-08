@@ -3,6 +3,7 @@ import Profile from "./Profile";
 import Project from "./project/Project";
 import Skills from "./Skills";
 import Certification from "./Certification";
+import Education from "./Education";
 
 const Projects = () => {
   return (
@@ -15,6 +16,9 @@ const Projects = () => {
 
       {/* Skills */}
       <Skills />
+
+      {/* Education */}
+      <Education />
 
       {/* Certifications & Achievements */}
       <Certification />
