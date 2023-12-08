@@ -13,10 +13,11 @@ import git from "../assets/github.png";
 import reactCertification from "../assets/certifications/React-IBM-certification.png";
 import BronzeLearner from "../assets/Achievements/Champion-Learner-Bronze-2023.png";
 import DSA from "../assets/Achievements/DSA-mock-interview-scaler.png";
+import myPhoto from "../assets/gyanendra-photo.jpg";
 
 export const about = {
   name: "Gyanendra Kumar",
-  img: "/src/assets/gyanendra-photo.jpg",
+  img: myPhoto,
   introduction: "Hi, I'm Gyanendra Kumar Software Engineer.",
   description:
     "I'm an Application Developer specializing in Front-End Development at IBM in India. I'm dedicated to creating immersive user experiences through dynamic UI effects and animations, committed to seamlessly blending creativity with functionality in intuitive interfaces.",
