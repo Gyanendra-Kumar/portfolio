@@ -7,10 +7,9 @@ export const aboutVariant = {
     opacity: 1,
     y: 0,
     transition: {
+      ease: "linear",
       duration: 1,
-      type: "spring",
-      bounce: 0.7,
-      ease: [0.25, 0.1, 0.25, 1],
+      x: { duration: 1 },
     },
   },
 };
@@ -23,10 +22,15 @@ export const projectVariant = {
     opacity: 1,
     y: 0,
     transition: {
+      //   duration: 1.5,
+      //   type: "spring",
+      //   bounce: 0.7,
+      //   ease: [0.25, 0.1, 0.25, 1],
+
+      //   ease: "easeInOut",
       duration: 1,
-      type: "spring",
-      bounce: 0.7,
-      ease: [0.25, 0.1, 0.25, 1],
+      x: { duration: 1 },
+      ease: [0.17, 0.67, 0.83, 0.67],
     },
   },
 };

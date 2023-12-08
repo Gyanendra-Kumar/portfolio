@@ -156,6 +156,22 @@ export const companyProject = [
 export const personalProject = [
   {
     id: nanoid(),
+    projectName: "PortFolio",
+    role: "React Developer",
+    Technologies:
+      "React.js, Tailwind CSS, React Router DOM, Material UI, Framer Motion, React Icons",
+    description: [
+      "Created Portfolio web app using above mentioned technologies",
+      "Implemented react-router-dom latest features to allow users to view my resume, Github page for respective projects and live demo site of the respective projects",
+      "Implemented tab feature to show organization projects and personal projects",
+      "Implemented dialog feature to showcase contacts, certifications and achievements",
+      "Data is being fetched dynamically",
+    ],
+    demo: "https://gyanendra-portfolio-0112.netlify.app/",
+    github: "https://github.com/Huski-commando/portfolio",
+  },
+  {
+    id: nanoid(),
     projectName: "Movix",
     role: "React Developer",
     Technologies:
