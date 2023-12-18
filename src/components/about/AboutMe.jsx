@@ -3,6 +3,7 @@ import { about } from "../../utils/data";
 import { CustomButton } from "../../utils/CustomStyles";
 import Contact from "./Contact";
 import { Download } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -38,7 +39,12 @@ const AboutMe = () => {
               fontSize: "15px",
             }}
           >
-            Download Resume
+            <Link
+              to="https://drive.google.com/file/d/1YaJYMF8tQM_iBd02TdeHPKx1NfVGmZYd/view"
+              target="_blank"
+            >
+              Download Resume
+            </Link>
           </CustomButton>
           <Contact />
         </div>

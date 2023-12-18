@@ -118,10 +118,13 @@ export const companyProject = [
     duration: "Sep 2022 - Nov 2023",
     location: "Kolkata",
     description: [
-      "Responsible to develop new user interface for client application.",
-      "Created reusable components that were being used in multiple components.",
-      "Wrote test cases to validate the application after completion and uploaded to client tools.",
-      "Collaborated with cross-functional team such as designers team. ",
+      "Developed a web application called VIR using React.JS.",
+      "Presented a high level overview about VIR application to development team and management team including Vice-President, Senior Manager Architect, SME’s.",
+      "Created a Higher Order Component (HOC’S) that were being used in around 80 components.",
+      "Created login and registration for VIR with feature to check password strength.",
+      "Created layout for Dashboard.",
+      "Created 50+ forms form VIR using React.js, React Form Hook library, Tailwind CSS, Material UI and implemented Lazy loading, Use Memo for optimizations.",
+      "Wrote test cases for VIR to validate the application",
     ],
   },
   {
