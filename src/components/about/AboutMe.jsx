@@ -3,6 +3,7 @@ import { about } from "../../utils/data";
 import { CustomButton } from "../../utils/CustomStyles";
 import Contact from "./Contact";
 import { Download } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -38,8 +39,14 @@ const AboutMe = () => {
               fontSize: "15px",
             }}
           >
-            Download Resume
+            <Link
+              to="https://firebasestorage.googleapis.com/v0/b/ecommerce-354ac.appspot.com/o/images%2F1705501910331Gyanendra's%20Resume-14-01-24.pdf?alt=media&token=fb4f77b9-c367-4167-beb4-dcf2d8caec6f"
+              target="_blank"
+            >
+              Download Resume
+            </Link>
           </CustomButton>
+
           <Contact />
         </div>
       </section>

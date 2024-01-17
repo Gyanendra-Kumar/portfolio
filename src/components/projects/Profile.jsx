@@ -14,7 +14,7 @@ const Profile = () => {
 
         {profile.map((item, index) => {
           return (
-            <div key={item.id} className="flex gap-2">
+            <div key={item.id} className="flex gap-2 leading-6">
               <span>
                 <PiArrowFatLinesRightLight />
               </span>

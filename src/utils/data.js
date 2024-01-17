@@ -38,6 +38,10 @@ export const profile = [
   },
   {
     id: nanoid(),
+    desc: "I have 1.5 years of React.js experience.",
+  },
+  {
+    id: nanoid(),
     desc: "Interacted with client to understand the requirements to produce Technical Solution.",
   },
   {
@@ -116,7 +120,7 @@ export const companyProject = [
     Technologies:
       "React.js, Redux/Toolkit, React-Hook-Forms, HTML(JSX), Tailwind CSS, Javascript(ES6), Material UI",
     duration: "Sep 2022 - Nov 2023",
-    location: "Kolkata",
+    location: "Bangalore",
     description: [
       "Responsible to develop new user interface for client application.",
       "Created reusable components that were being used in multiple components.",
@@ -154,6 +158,21 @@ export const companyProject = [
 ];
 
 export const personalProject = [
+  {
+    id: nanoid(),
+    projectName: "E-Commerce",
+    role: "React Developer",
+    Technologies:
+      "React.js,React Form Hook, Tailwind CSS, React Router DOM, Material UI, Framer Motion, React Icons, Firebase, GitHub",
+    description: [
+      "Developed authentication and authorization functionality using React.js, React Hooks, Tailwind CSS, Redux Toolkit, Firebase, React Form Hook.",
+      "Working on Admin dashboard to display graph, add new products, update the products, view and change order status.",
+      "Non-Admin user cannot access admin dashboard",
+      "Currently working on this Project.",
+    ],
+    demo: "https://eccomerce-gyanendra-kumars-projects.vercel.app/",
+    github: "https://github.com/Huski-commando/eccomerce",
+  },
   {
     id: nanoid(),
     projectName: "PortFolio",
