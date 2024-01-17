@@ -40,7 +40,7 @@ const AboutMe = () => {
             }}
           >
             <Link
-              to="https://firebasestorage.googleapis.com/v0/b/ecommerce-354ac.appspot.com/o/images%2F1705501910331Gyanendra's%20Resume-14-01-24.pdf?alt=media&token=fb4f77b9-c367-4167-beb4-dcf2d8caec6f"
+              to="https://firebasestorage.googleapis.com/v0/b/ecommerce-354ac.appspot.com/o/images%2F1705386911007Gyanendra's%20Resume-14-01-24.pdf?alt=media&token=8e4b0aef-40ef-4045-b74a-304830a22fae"
               target="_blank"
             >
               Download Resume
