@@ -116,6 +116,24 @@ export const companyProject = [
   {
     id: nanoid(),
     company: "IBM",
+    role: "Application Developer - React.js",
+    Technologies:
+      "React.js, React Hooks, Redux Toolkit, Tailwind CSS, JavaScript, Rest API, JWT Auth, Material UI, Gi",
+    duration: "Dec 2023 - Till Now",
+    location: "Bangalore",
+    description: [
+      "Developing an E-Commerce web app with admin functionality.",
+      "Using JWT Authentication and Authorization to based on the user roles.",
+      "Created a Higher Order Component (HOC’S) to implement common features.",
+      "Implementing redux toolkit and redux persist for state management and persisting data",
+      "Admin can manage products, orders, users.",
+      "Creating layout for Admin Dashboard.",
+      "Implementing code splitting, implemented Lazy loading, Use Memo for application optimizations.",
+    ],
+  },
+  {
+    id: nanoid(),
+    company: "IBM",
     role: "Application Developer",
     Technologies:
       "React.js, Redux/Toolkit, React-Hook-Forms, HTML(JSX), Tailwind CSS, Javascript(ES6), Material UI",
@@ -149,7 +167,7 @@ export const companyProject = [
     company: "IBM",
     role: "Application Developer",
     Technologies: "FileNet, ACCE, WorkPlace",
-    duration: "June 2020 - August 2021",
+    duration: "March 2020 - August 2021",
     location: "Bangalore",
     description: [
       "Ensure the application is up and running as expected",
